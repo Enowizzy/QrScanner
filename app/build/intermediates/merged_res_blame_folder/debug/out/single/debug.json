@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\build\\intermediates\\res\\merged\\debug\\layout_listitem.xml.flat",
+        "source": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\src\\main\\res\\layout\\listitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mapping.xml.flat",
+        "source": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\src\\main\\res\\layout\\activity_mapping.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_pip.jpg.flat",
+        "source": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\src\\main\\res\\mipmap-mdpi\\pip.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scanner.xml.flat",
+        "source": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\src\\main\\res\\layout\\activity_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_qr.jpg.flat",
+        "source": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\src\\main\\res\\drawable-v24\\qr.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_pop.jpg.flat",
+        "source": "C:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\src\\main\\res\\mipmap-mdpi\\pop.jpg"
+    }
+]

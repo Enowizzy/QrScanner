@@ -1,0 +1,15 @@
+com/example/qrscanner/BuildConfig.java
+ com.example.qrscanner.BuildConfig
+com/example/qrscanner/Adapter.java
+ com.example.qrscanner.Adapter
+ com.example.qrscanner.Adapter$ViewHolder
+com/example/qrscanner/MainActivity.java
+ com.example.qrscanner.MainActivity
+ com.example.qrscanner.MainActivity$1
+com/example/qrscanner/ScannerActivity.java
+ com.example.qrscanner.ScannerActivity
+ com.example.qrscanner.ScannerActivity$1
+com/example/qrscanner/MappingActivity.java
+ com.example.qrscanner.MappingActivity
+ com.example.qrscanner.MappingActivity$1
+ com.example.qrscanner.MappingActivity$DownloadImageFromInternet

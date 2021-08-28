@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.qrscanner"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:6:5-65
+12-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:6:22-62
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:7:5-66
+13-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:7:22-63
+14
+15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\1e3d010b78096cf4e707b2614691c48c\jetified-firebase-database-20.0.0\AndroidManifest.xml:25:5-79
+17-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\1e3d010b78096cf4e707b2614691c48c\jetified-firebase-database-20.0.0\AndroidManifest.xml:25:22-76
+18
+19    <application
+19-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:9:5-25:19
+20        android:allowBackup="true"
+20-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:10:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.5.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\402bd498e151082a8f895cc47cc477af\core-1.5.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/pip"
+23-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:11:9-35
+24        android:label="@string/app_name"
+24-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:12:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:13:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:14:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.QrScanner" >
+28-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:15:9-47
+29        <activity android:name="com.example.qrscanner.MappingActivity" />
+29-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:16:9-62
+29-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:16:19-50
+30        <activity android:name="com.example.qrscanner.ScannerActivity" />
+30-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:17:9-53
+30-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:17:19-50
+31        <activity android:name="com.example.qrscanner.MainActivity" >
+31-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:18:9-24:20
+31-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:18:19-47
+32            <intent-filter>
+32-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:19:13-23:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:20:17-69
+33-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:20:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:22:17-77
+35-->C:\Users\Jeedie\AndroidStudioProjects\QrScanner\app\src\main\AndroidManifest.xml:22:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <service
+39-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\1e3d010b78096cf4e707b2614691c48c\jetified-firebase-database-20.0.0\AndroidManifest.xml:29:9-35:19
+40            android:name="com.google.firebase.components.ComponentDiscoveryService"
+40-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\1e3d010b78096cf4e707b2614691c48c\jetified-firebase-database-20.0.0\AndroidManifest.xml:30:13-84
+41            android:directBootAware="true"
+41-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\6bfc77ad33212bb52c763e14162c1c18\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+42            android:exported="false" >
+42-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\1e3d010b78096cf4e707b2614691c48c\jetified-firebase-database-20.0.0\AndroidManifest.xml:31:13-37
+43            <meta-data
+43-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\1e3d010b78096cf4e707b2614691c48c\jetified-firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
+44                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+44-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\1e3d010b78096cf4e707b2614691c48c\jetified-firebase-database-20.0.0\AndroidManifest.xml:33:17-109
+45                android:value="com.google.firebase.components.ComponentRegistrar" />
+45-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\1e3d010b78096cf4e707b2614691c48c\jetified-firebase-database-20.0.0\AndroidManifest.xml:34:17-82
+46        </service>
+47
+48        <provider
+48-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\6bfc77ad33212bb52c763e14162c1c18\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+49            android:name="com.google.firebase.provider.FirebaseInitProvider"
+49-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\6bfc77ad33212bb52c763e14162c1c18\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+50            android:authorities="com.example.qrscanner.firebaseinitprovider"
+50-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\6bfc77ad33212bb52c763e14162c1c18\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+51            android:directBootAware="true"
+51-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\6bfc77ad33212bb52c763e14162c1c18\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+52            android:exported="false"
+52-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\6bfc77ad33212bb52c763e14162c1c18\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+53            android:initOrder="100" />
+53-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\6bfc77ad33212bb52c763e14162c1c18\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+54
+55        <activity
+55-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\315fbb83342045bdbf67a04cde9a8c21\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+56            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+56-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\315fbb83342045bdbf67a04cde9a8c21\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+57            android:exported="false"
+57-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\315fbb83342045bdbf67a04cde9a8c21\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+58-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\315fbb83342045bdbf67a04cde9a8c21\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+59
+60        <meta-data
+60-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\0089979aeee6e106c7c9bdb4b762486b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+61            android:name="com.google.android.gms.version"
+61-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\0089979aeee6e106c7c9bdb4b762486b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+62            android:value="@integer/google_play_services_version" />
+62-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Jeedie\.gradle\caches\transforms-2\files-2.1\0089979aeee6e106c7c9bdb4b762486b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+63    </application>
+64
+65</manifest>

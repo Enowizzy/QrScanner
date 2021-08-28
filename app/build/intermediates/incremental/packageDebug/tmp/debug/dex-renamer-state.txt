@@ -1,0 +1,7 @@
+#Wed Aug 04 09:47:29 EAT 2021
+base.1=C\:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+path.1=classes.dex
+base.0=C\:\\Users\\Jeedie\\AndroidStudioProjects\\QrScanner\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
